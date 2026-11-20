@@ -53,7 +53,7 @@
     .btn-primary,.btn-ghost { display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 13px 21px; border: 1px solid var(--gold); font-size: 13px; letter-spacing: .08em; transition: .2s; }
     .btn-primary { background: var(--gold); color: var(--night); }
     .btn-primary:hover { background: #ebd59f; }
-    .btn-ghost { color: var(--paper); border-color: rgba(242,236,220,.35); }
+    .btn-ghost { background: transparent; color: var(--paper); border-color: rgba(242,236,220,.35); }
     .btn-ghost:hover { border-color: var(--gold); color: var(--gold); }
     .hero-note { margin-top: 18px!important; font: 11px/1.8 var(--sans)!important; color: #88979b!important; }
     .seal-scene { height: auto; aspect-ratio: 16 / 9; border: 1px solid rgba(216,189,130,.28); position: relative; display: grid; place-items: center; overflow: hidden; background: #17242d; }
