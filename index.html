@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111b26">
+  <meta name="robots" content="noindex, nofollow">
+  <title>辛辛纳图斯 · SIMMC 玩家社群</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="topline"><div class="wrap"><span><b>辛辛纳图斯</b>　SIMMC 社会模拟服务器</span><span>玩家自发组织的社群</span></div></div>
+  <header>
+    <div class="wrap head">
+      <a class="brand" href="#home" aria-label="辛辛纳图斯首页">
+        <div class="crest"><span>辛</span></div>
+        <div class="brand-copy"><strong>辛辛纳图斯</strong><small>SIMMC 玩家社群</small></div>
+      </a>
+      <button class="mobile-menu" id="menuToggle" aria-label="打开导航">☰</button>
+      <nav id="nav">
+        <a class="active" href="#home">主页</a>
+        <a href="#notices">公告</a>
+        <a href="#services">功能</a>
+        <a href="#newspaper">云垂日报</a>
+      </nav>
+      <button class="login" id="loginButton">登录 / 验证正版</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <div class="eyebrow">SIMMC 社会模拟服务器 · 辛辛纳图斯</div>
+          <h1>辛辛纳图斯<em>SIMMC 玩家主页</em></h1>
+          <p>这里放着服务器指南、国家公告和云垂日报。也可以来这里发订单、提建议，或者找人聊聊。</p>
+          <div class="hero-actions">
+            <a class="btn-primary" href="#newspaper">阅读云垂日报 <span>↗</span></a>
+            <button class="btn-ghost" id="heroLogin">Minecraft 正版验证 <span>→</span></button>
+          </div>
+          <p class="hero-note">日报对所有人开放；其他功能需正版验证并加入白名单。</p>
+        </div>
+        <div class="seal-scene" aria-label="SIMMC 国庆庆典截图">
+          <img class="scene-art" src="assets/festival-scene.jpg" alt="SIMMC 服务器国庆庆典现场截图">
+          <div class="scene-caption"><b>辛辛纳图斯</b>　SIMMC 国庆活动</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="notices" style="padding-bottom:64px">
+      <div class="wrap">
+        <div class="section-heading"><div><div class="en">公告</div><h2>最近公告</h2></div><a class="more" href="#">查看全部　→</a></div>
+        <div class="notice-grid">
+          <article class="notice"><time>SIMMC　/　网站消息</time><h3>辛辛纳图斯网站开始试用</h3><p>指南、订单和反馈等功能还在制作中。</p></article>
+          <article class="notice"><time>SIMMC　/　云垂酒馆</time><h3>云垂日报对所有人开放</h3><p>不用登录就能阅读日报；其他功能需要正版验证并加入白名单。</p></article>
+          <article class="notice"><time>SIMMC　/　成员消息</time><h3>白名单由工作人员管理</h3><p>通过正版验证后，还需要工作人员添加白名单才能使用内部功能。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="wrap">
+        <div class="section-heading">
+          <div><div class="en">社群功能</div><h2>网站功能</h2></div>
+          <p>云垂日报可以直接阅读；其他功能需验证正版并加入白名单。</p>
+        </div>
+        <div class="service-grid">
+          <a class="service-card locked" href="#" data-number="01" data-feature="服务器指南">
+            <div class="card-top"><span class="icon">册</span><span class="access">◈ 需验证和白名单</span></div><h3>服务器指南</h3><p>常用玩法教程和服务器规则会整理在这里。</p><span class="card-link">查看指南　→</span>
+          </a>
+          <a class="service-card locked" href="#" data-number="02" data-feature="人力资源">
+            <div class="card-top"><span class="icon">契</span><span class="access">◈ 需验证和白名单</span></div><h3>悬赏与订单</h3><p>发布悬赏和订单，也可以接单帮忙。</p><span class="card-link">查看悬赏和订单　→</span>
+          </a>
+          <a class="service-card public" href="#newspaper" data-number="03">
+            <div class="card-top"><span class="icon">报</span><span class="access">● 所有人可读</span></div><h3>云垂日报</h3><p>查看近期活动、服务器消息和玩家来稿。</p><span class="card-link">阅读日报　→</span>
+          </a>
+          <a class="service-card locked" href="#" data-number="04" data-feature="问题反馈">
+            <div class="card-top"><span class="icon">笺</span><span class="access">◈ 需验证和白名单</span></div><h3>反馈和建议</h3><p>提交遇到的问题或改进建议，并查看处理进度。</p><span class="card-link">提交反馈　→</span>
+          </a>
+          <a class="service-card locked" href="#" data-number="05" data-feature="倾听与支持">
+            <div class="card-top"><span class="icon">灯</span><span class="access">◈ 需验证和白名单</span></div><h3>找人聊聊</h3><p>可以匿名提交话题，由指定的工作人员回复。</p><span class="card-link">打开支持票　→</span>
+          </a>
+          <a class="service-card locked" href="#" data-number="06" data-feature="奖惩机制">
+            <div class="card-top"><span class="icon">衡</span><span class="access">◈ 需验证和白名单</span></div><h3>奖励和成员守则</h3><p>查看国家奖励办法和成员守则。</p><span class="card-link">查看内容　→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature" id="newspaper">
+      <div class="wrap feature-inner">
+        <div class="feature-copy">
+          <div class="en">云垂酒馆 · 云垂日报</div>
+          <h2>云垂日报</h2>
+          <p>日报会发布活动安排、服务器消息和玩家来稿。所有人都能阅读本期和上一期。</p>
+          <div class="feature-list"><span>公开阅读</span><span>本期与上一期</span><span>定时或立即发布</span></div>
+          <div style="margin-top:25px"><a class="btn-primary" style="background:var(--red);border-color:var(--red);color:white" href="#" id="readPaper">打开本期日报　↗</a></div>
+        </div>
+        <div class="paper-preview" aria-label="云垂日报排版预览">
+          <div style="display:flex;justify-content:space-between;align-items:center;color:#706859;font:10px var(--serif)"><span>辛辛纳图斯 · 云垂酒馆</span><span>活动安排 · 酒馆消息</span></div>
+          <h3>云垂日报</h3><div class="sub">服务器消息　·　近期活动　·　玩家来稿</div>
+          <div class="paper-rule"></div>
+          <div class="paper-columns"><div class="paper-hero">今日大板块　·　今晚活动<br><b style="font-size:19px;margin-top:6px">云垂酒馆　灯火新开</b></div><div class="paper-side"><b>接下来几天</b>明日　南街周末集市<br>后日　云垂夜游<br>三日后　街坊故事雅集<br><hr style="border:0;border-top:1px solid #b9ad96;margin:10px 0">云垂酒馆　敬上</div></div>
+          <div style="margin-top:15px;padding-top:10px;border-top:1px solid #b9ad96;color:#776d5d;font:10px var(--serif);display:flex;justify-content:space-between"><span>本期版面预览</span><span>01 / 02</span></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer><div class="wrap footer-inner"><div><div class="footer-brand">辛辛纳图斯 · SIMMC</div><div style="margin-top:9px">玩家一起管理的国家主页。</div></div><div>网站原型<br><span style="display:inline-block;margin-top:7px">云垂日报对所有人开放</span></div><div>网站说明和隐私<br><span style="display:inline-block;margin-top:7px">辛辛纳图斯玩家集体</span></div></div></footer>
+  <div class="modal" id="loginModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-box"><button class="modal-close" id="modalClose" aria-label="关闭">×</button><h2 id="modalTitle">Minecraft 正版验证</h2><p>正式登录会跳转到 Microsoft 授权页面，确认 Minecraft Java 账号后返回本站。本网站不会收集微软密码。</p><p class="disclaimer">目前还是页面原型，登录功能还没接入。正版验证通过后，还要由工作人员添加白名单才能使用内部功能。云垂日报不需要登录。</p><div class="modal-actions"><button class="mock-login" id="mockLogin">登录功能说明</button><button class="cancel" id="modalCancel">返回</button></div></div>
+  </div>
+</body>
+</html>
